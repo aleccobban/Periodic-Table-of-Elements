@@ -31,7 +31,8 @@
             "ionization_energies": [
                 1312
             ],
-            "cpk-hex": "ffffff"
+            "cpk-hex": "ffffff",
+            "bonds_n":true
         },
         {
             "name": "Helium",
@@ -65,7 +66,8 @@
                 2372.3,
                 5250.5
             ],
-            "cpk-hex": "d9ffff"
+            "cpk-hex": "d9ffff",
+            "bonds_n":false
         },
         {
             "name": "Lithium",
@@ -101,7 +103,8 @@
                 7298.1,
                 11815
             ],
-            "cpk-hex": "cc80ff"
+            "cpk-hex": "cc80ff",
+            "bonds_n":false
         },
         {
             "name": "Beryllium",
@@ -138,7 +141,8 @@
                 14848.7,
                 21006.6
             ],
-            "cpk-hex": "c2ff00"
+            "cpk-hex": "c2ff00",
+            "bonds_n":false
         },
         {
             "name": "Boron",
@@ -176,7 +180,8 @@
                 25025.8,
                 32826.7
             ],
-            "cpk-hex": "ffb5b5"
+            "cpk-hex": "ffb5b5",
+            "bonds_n":false
         },
         {
             "name": "Carbon",
@@ -215,7 +220,9 @@
                 37831,
                 47277
             ],
-            "cpk-hex": "909090"
+            "cpk-hex": "909090",
+            "bonds_n":true,
+            "bonds":[{"name":"Methylamine", "structure":"CH3-NH2",  "bond_image":"./images/Methylamine-2D.png"}]
         },
         {
             "name": "Nitrogen",
@@ -255,7 +262,8 @@
                 53266.6,
                 64360
             ],
-            "cpk-hex": "3050f8"
+            "cpk-hex": "3050f8",
+            "bonds_n":true
         },
         {
             "name": "Oxygen",
@@ -296,7 +304,8 @@
                 71330,
                 84078
             ],
-            "cpk-hex": "ff0d0d"
+            "cpk-hex": "ff0d0d",
+            "bonds_n":true
         },
         {
             "name": "Fluorine",
@@ -338,7 +347,8 @@
                 92038.1,
                 106434.3
             ],
-            "cpk-hex": "90e050"
+            "cpk-hex": "90e050",
+            "bonds_n":false
         },
         {
             "name": "Neon",
@@ -381,7 +391,8 @@
                 115379.5,
                 131432
             ],
-            "cpk-hex": "b3e3f5"
+            "cpk-hex": "b3e3f5",
+            "bonds_n":false
         },
         {
             "name": "Sodium",
@@ -426,7 +437,8 @@
                 141362,
                 159076
             ],
-            "cpk-hex": "ab5cf2"
+            "cpk-hex": "ab5cf2",
+            "bonds_n":false
         },
         {
             "name": "Magnesium",
@@ -472,7 +484,8 @@
                 169988,
                 189368
             ],
-            "cpk-hex": "8aff00"
+            "cpk-hex": "8aff00",
+            "bonds_n":false
         },
         {
             "name": "Aluminium",
@@ -519,7 +532,8 @@
                 201266,
                 222316
             ],
-            "cpk-hex": "bfa6a6"
+            "cpk-hex": "bfa6a6",
+            "bonds_n":false
         },
         {
             "name": "Silicon",
@@ -567,7 +581,8 @@
                 235196,
                 257923
             ],
-            "cpk-hex": "f0c8a0"
+            "cpk-hex": "f0c8a0",
+            "bonds_n":false
         },
         {
             "name": "Phosphorus",

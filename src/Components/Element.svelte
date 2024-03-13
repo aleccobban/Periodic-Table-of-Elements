@@ -1,5 +1,7 @@
 <script>
   import { elements } from '../Data/PeriodicTableJSON.json';
+  import { createEventDispatcher } from 'svelte';
+
   export let style;
   export let atomicNumber;
   const toCamelCase = (input) => {
@@ -9,6 +11,19 @@
     });
     return output;
   };
+  const dispatch = createEventDispatcher();
+
+  function activateModal(){
+      if(atomicNumber){
+        dispatch('details', {
+            atomicNumber
+        });
+      }
+  }
+  // onclick={activateModal}
+  // onclick={activateModal}
+
+
 </script>
 
 <style>
@@ -61,9 +76,11 @@
   }
 </style>
 
-<button
+<button 
+ on:click={activateModal}
+ 
   type="button"
-  class=" element p-1 rounded shadow-xl cursor-pointer overflow-hidden border {toCamelCase(elements[atomicNumber - 1].category)}"
+  class=" element p-1 rounded shadow-xl {elements[atomicNumber-1].bonds_n?"cursor-pointer opacity-100":"cursor-default opacity-50 pointer-events-none"} overflow-hidden border {toCamelCase(elements[atomicNumber - 1].category)}"
   {style}>
   <div>
     <div class="-mb-1 font-light text-left element-atomic-number">
@@ -79,3 +96,4 @@
     </div>
   </div>
 </button>
+

@@ -15,7 +15,7 @@
 
 <main class="mx-auto">
   <div class="p-10 mx-auto text-5xl text-center text-gray-800">
-    <h1>Periodic Table of Svelements</h1>
+    <h1>Periodic Table of Elements</h1>
   </div>
   <div class="table-wrapper">
     <Table />
